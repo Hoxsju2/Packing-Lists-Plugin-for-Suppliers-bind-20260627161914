@@ -1,0 +1,130 @@
+/* Supplier Packing Lists - Public Styles */
+.spl-dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.spl-dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.spl-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0073aa;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.spl-btn:hover {
+    background-color: #005177;
+}
+
+.spl-btn-danger {
+    background-color: #dc3232;
+}
+
+.spl-btn-danger:hover {
+    background-color: #a02323;
+}
+
+.spl-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.spl-table th, .spl-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.spl-table th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+    color: #333;
+}
+
+.spl-status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.spl-status-pending { background: #fef3c7; color: #92400e; }
+.spl-status-approved { background: #d1fae5; color: #065f46; }
+.spl-status-cancelled { background: #fee2e2; color: #991b1b; }
+
+/* Form Styles */
+.spl-form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.spl-form-group {
+    margin-bottom: 15px;
+}
+
+.spl-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.spl-form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.spl-items-wrapper {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.spl-item-row input {
+    width: 100%;
+    min-width: 80px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.spl-item-row .item-desc {
+    min-width: 200px;
+}
+
+.spl-totals-bar {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.spl-hidden {
+    display: none !important;
+}
