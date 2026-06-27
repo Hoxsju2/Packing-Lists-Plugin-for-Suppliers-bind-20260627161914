@@ -1,0 +1,127 @@
+.spl-shortcode-section {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.spl-main-shortcode {
+    background: #e8f4fd !important;
+    border: 2px solid #0073aa !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.spl-shortcode-box {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.spl-shortcode-box code {
+    background: transparent;
+    font-size: 14px;
+    color: #0073aa;
+    flex-grow: 1;
+}
+
+.spl-main-shortcode code {
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+.spl-setup-steps {
+    background: #f0f8ff;
+    padding: 20px;
+    border-left: 4px solid #0073aa;
+    margin: 15px 0;
+}
+
+.spl-setup-steps ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.spl-setup-steps li {
+    margin-bottom: 8px;
+}
+
+.spl-flow-diagram ol {
+    background: #f8f9fa;
+    padding: 20px;
+    border-left: 4px solid #28a745;
+    margin: 15px 0;
+}
+
+.spl-flow-diagram li {
+    margin-bottom: 8px;
+}
+
+/* Copy button animation */
+.spl-shortcode-box button.button-primary {
+    background: #00a32a;
+    border-color: #00a32a;
+    color: white;
+}
+
+/* Admin table styling */
+.spl-items-table th, .spl-items-table td {
+    padding: 8px 4px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+.spl-items-table th {
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.spl-items-table input, .spl-items-table select {
+    width: 100%;
+    min-width: 80px;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.spl-items-table input[readonly] {
+    background-color: #f9f9f9;
+    color: #666;
+}
+
+#live-totals {
+    font-size: 14px;
+}
+
+#live-totals span {
+    background: white;
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+/* Suppliers section */
+.spl-suppliers-section {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.spl-suppliers-summary {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Tab content */
+.tab-content {
+    margin-top: 20px;
+}
